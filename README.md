@@ -16,7 +16,7 @@ El tiempo que se demora en que la onda ultrasónica viaje a un obstáculo, sumá
 
 
 
-3 • ¿ Cómo influye el ruido en las mediciones del sensor ultrasónico y c´omo
+3 • ¿ Cómo influye el ruido en las mediciones del sensor ultrasónico y cómo
 podría reducirse?
 
 El ruido provoca que las mediciones del sensor ultrasónico no sean perfectas, disminuyendo la precisión y confiabilidad al medir distancias. Este ruido puede deberse a superficies irregulares, interferencias o al ángulo de rebote del sonido. Para reducir este error, se pueden procesar y filtrar los datos, eliminando así las fluctuaciones no deseadas y mejorando la calidad de las mediciones.
