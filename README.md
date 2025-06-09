@@ -1,5 +1,11 @@
 # Laboratorio-2-Rob-tica
 
+Integrantes:
+-Alex Aravena
+-Álvaro Catalán
+-Samira Becerra
+-Leandro Chamorro
+
 Parte 1
 1 • ¿ Qué es la percepción en robótica y por qué es fundamental en los sistemas autónomos? 
 
@@ -13,7 +19,6 @@ Percepción compleja: Reconocer objetos, emociones, personal, etc.
 2 • En el sensor ultrasónico HC-SR04 ¿ Qué parámetro se mide para calcular la distancia? 
 
 El tiempo que se demora en que la onda ultrasónica viaje a un obstáculo, sumándole el tiempo de vuelta.
-
 
 
 3 • ¿ Cómo influye el ruido en las mediciones del sensor ultrasónico y cómo
@@ -42,10 +47,17 @@ del robot ¿ Cuál elegirías y por qué?.
 
 Escogeríamos el sensor LIDAR, ya que actualmente no contamos con un sensor capaz de generar un mapa tridimensional del entorno, lo que permitiría una mejor planificación de rutas. Además, al utilizar pulsos de luz, el LIDAR ofrece una detección mucho más rápida que las ondas ultrasónicas del sensor HC-SR04, lo que se traduce en un mejor tiempo de respuesta ante obstáculos.
 
-
-
 7 • ¿Cuál es el tiempo de respuesta del robot al detectar un cambio de color?		
 
 El tiempo de respuesta que el robot tiene al momento de detectar un cambio de color es de entre 1102-3600 ms.
+
+
+Reflexión sobre posibles mejoras en la detección
+
+Para poder mejorar la detección podríamos realizar pruebas en un entorno más controlado, donde no haya ninguna señal que pueda interrumpir y exista un circuito más elaborado con obstáculos y colores bien definidos y una iluminación ideal para favorecer la detección de colores. Otra forma de mejorar la detección sería cambiar los sensores por otros de mayor calidad que puedan aumentar el tiempo de respuesta y mejorar la detección. Por último podríamos hacer un mayor uso de algoritmos de filtrado para evitar que datos atípicos influyan en la lectura.
+
+Análisis de variaciones en las lecturas
+
+Las lecturas iniciales no eran muy certeras, pero tampoco se alejaban tanto del valor real, presentando una variación de entre -0.67 y 0.54. Debido a esto decidimos ajustar el código para que se ajustara mejor a las mediciones, modificando el valor distancia a *=1,02. Tras realizar el ajuste debido las mediciones comenzaron a ser más precisas, presentando variaciones mínimas las cuales se pueden atribuir a una pequeña imprecisión de medición física.
 
 
